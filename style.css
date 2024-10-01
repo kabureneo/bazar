@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: black;
+    color: white;
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    font-family: kaushan;
+  }
+
+  .ayam {
+  font-family: retro_loveregular;
+  }
+
+  .container {
+    background-color: antiquewhite;
+    width: auto;
+    height: auto;
+  }
+
+  .container-product-satu {
+    background-color: white;
+    height: 700px;
+  }
+  /* .product-satu {
+    height: 300px;
+  } */
+  .img-product-satu {
+    background-color: #333;
+    background-image: url(img/Tomyam.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: retro_loveregular, sans-serif;
+    font-size: 80px;
+  }
+
+  .img-product-satu img {
+    /* background-image: url(img/Tomyam.jpeg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    filter: brightness(95%);
+  }
+
+  .img-product-satu p {
+    position: absolute;
+    color: white;
+    text-shadow: 5px 5px gray ;
+  }
+
+  .container-product-dua {
+    background-color: black;
+    height: 100px;
+    margin-top: 100px;
+    display: flex;
+  }
+
+  .product-dua img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+  }
+
+
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+  }    
+
+
