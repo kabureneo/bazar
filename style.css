@@ -30,20 +30,19 @@
 
   .container-product-satu {
     background-color: white;
-    height: 700px;
   }
   /* .product-satu {
     height: 300px;
   } */
   .img-product-satu {
     background-color: #333;
-    background-image: url(img/Tomyam.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: ccolumn;
+    flex-wrap: nnowrap;
+    
     font-family: retro_loveregular, sans-serif;
     font-size: 80px;
   }
@@ -55,9 +54,7 @@
     width: 100%;
     height: auto;
     filter: brightness(95%);
-    -webkit-mask-image: linear-gradient(rgba(0, 0, 0, 1) rgba(0, 0, 0, 0));
-    mask-image: linear-gradient(rgba(0, 0, 0, 1) rgba(0, 0, 0, 0));
-    mask-image: -webkit-linear-gradient(rgba(0, 0, 0, 1) rgba(0, 0, 0, 0));
+    display: flex;
   }
 
   .img-product-satu p {
@@ -69,7 +66,6 @@
   .container-product-dua {
     background-color: black;
     height: 100px;
-    margin-top: 100px;
     display: flex;
   }
 
@@ -78,6 +74,15 @@
     background-repeat: no-repeat;
     width: 100%;
     height: auto;
+  }
+  
+  .item-satu {
+   position: absolute;
+   right: 10%;
+   
+   width: 100px;
+   border-radius: 100%;
+   
   }
 
 
