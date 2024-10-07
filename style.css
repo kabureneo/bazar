@@ -1,0 +1,142 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    background-image: url(img/backgound-1.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: center;
+    font-weight: 500;
+    text-shadow: 1px 1px 0px white, /* Bayangan putih ke kanan bawah */
+                -1px -1px 0px white, /* Bayangan putih ke kiri atas */
+                -1px 1px 0px white, /* Bayangan putih ke kiri bawah */
+                1px -1px 0px white;
+}
+.container header {
+    background-color: #000000;
+    color: #ffffff;
+    text-shadow: none;
+    text-align: center;
+    padding: 10px 0;
+}
+.content header {
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+}
+.content header h1 {
+    font-size: 34px;
+    
+}
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+.content {
+    padding: 10px;
+    position: relative;
+}
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.actions {
+    background-color: #E80114;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    transform: rotate(-8deg);
+    width: 600px;
+    height: 200px;
+    position: absolute;
+    left: -20px;
+    bottom: -40px;
+}
+
+.foto-1 {
+    width: 95%;
+    height: 190px;
+    background-color: #000000;
+    position: absolute;
+    transform: translate(-50%);
+    left: 50%;
+    bottom: -20px;
+    z-index: 2;
+    border-radius: 10px;
+    border: 3px solid white;
+    background-image: url(img/xh-min.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.testBox { 
+    width: auto;
+    height: 700px;
+    background-color: aqua;
+    position: relative;
+}
+
+.layer-1 {
+    width: 100%;
+    height: 1400px;
+    background-color: #E80114;
+    position: relative;
+}
+.demo-0 {
+    width: 100%;
+    margin-top: 60px;
+}
+.demo-1 {
+    width: 100%;
+}
+.text-samping {
+    margin-top: 50px;
+    position: absolute;
+    font-family: pixel;
+    right: 40px;
+    top: -60px;
+    line-height: 0.3;
+    font-weight: 500;
+    font-size: 28px;
+
+    z-index: 3;
+}
+
+
+/* .anchor {
+    anchor-name: --my-anchor;
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+  }
+  
+  .target {
+    position: absolute; //atau position: fixed; 
+    position-anchor: --my-anchor;
+    inset: anchor(--my-anchor) 0px 20px 20px 20px;
+    width: 50px;
+    height: 50px;
+    background-color: lightcoral;
+  } */
+  
