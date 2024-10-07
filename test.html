@@ -15,12 +15,31 @@
             width: 300px;
             margin: 0 auto;
             background-color: #ffffff;
+            background-image: url(img/backgound-1.jpeg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+            font-size: 14px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            overflow: hidden;
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: column;
+            justify-content: center;
         }
-        header {
+        .container header {
             background-color: #000000;
             color: #ffffff;
             text-align: center;
             padding: 10px 0;
+        }
+        .content header {
+            background-color: rgba(0, 0, 0, 0);
+            color: black;
+        }
+        .content header h1 {
+            font-size: 34px;
         }
         h1 {
             margin: 0;
@@ -46,22 +65,26 @@
             padding: 10px 0;
             font-size: 18px;
             font-weight: bold;
+            transform: rotate(-10deg);
+            width: 400px;
+            height: 100px;
+            position: absolute;
+            bottom: -30px;
+            left: -20px;
         }
     </style>
+    <link rel="stylesheet" href="font/pixel/stylesheet.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>All about Mario</h1>
+            <h1>Xavieris</h1>
         </header>
         <div class="content">
-            <h1>All about Mario</h1>
+            <header><h1 style="font-family: pixel;">Xavieris</h1></header>
             <p>Meet Mario, the mustached hero of the Mushroom Kingdom. You may know him as a famous plumber, but he's also a kart racer, sports star, caped hero, and more! Using all his amazing abilities, he works with his friends to keep the Mushroom Kingdom safe.</p>
-            <img src="https://via.placeholder.com/300x200" alt="Mario">
+            <img src="img/mario-1.png" alt="Mario">
             <div class="actions">
-                Run!<br>
-                Dash!<br>
-                Jump!
             </div>
         </div>
     </div>
